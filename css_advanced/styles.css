@@ -1,0 +1,538 @@
+@import url("https://fonts.cdnfonts.com/css/source-sans-pro");
+
+body {
+  background-image: url(./images/bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 2rem;
+}
+
+.logo {
+  padding-left: 5rem;
+}
+
+.logo-img {
+  width: 12rem;
+  padding-left: 30px;
+}
+
+.nav-links {
+  display: inline-flex;
+  gap: 3.25rem;
+  font-family: "Source Sans Pro";
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 1000;
+}
+
+.head-1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 7.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.banner-text {
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 1rem;
+  font-weight: 700;
+  display: inline-flex;
+  position: relative;
+  left: 44rem;
+  top: -9rem;
+  padding: 20px;
+}
+
+.register-btn {
+  width: 10.125rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  border-radius: 1.375rem;
+  background: #c271ff;
+  position: relative;
+  left: 30rem;
+  top: -4rem;
+  color: #fff;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.head-2 span {
+  color: #c271ff;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.head-2 {
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 1rem;
+}
+
+.avatar {
+  display: block;
+  text-align: center;
+  width: 15.625rem;
+  height: 15.625rem;
+  padding: 2rem;
+}
+
+.avatar img {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+}
+
+.avatar-name {
+  color: #fff;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.6875rem;
+}
+
+.avatar-p {
+  color: #fff;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.5rem;
+  width: 9rem;
+}
+
+.quote {
+  background-color: #c271ff;
+  width: 102%;
+  height: 24.5rem;
+  position: relative;
+  top: 4.15rem;
+  left: -1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-div {
+  display: inline-flex;
+}
+
+.quote-div img {
+  border-radius: 50%;
+  width: 12rem;
+  height: 12rem;
+  margin-top: 1rem;
+}
+
+.quote-text {
+  width: 51rem;
+  height: 9.875rem;
+  flex-shrink: 0;
+}
+
+.quote-text-1 {
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.1rem;
+}
+
+.quote-text-2 {
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.1rem;
+}
+
+.quote-text-3 {
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 1.375rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 2.1rem;
+}
+
+.videos {
+  background: #fff;
+  width: 102%;
+  position: relative;
+  top: 4.9rem;
+  left: -1rem;
+  margin-top: -0.41rem;
+}
+
+.videos h1 {
+  color: #071629;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-top: 2rem;
+}
+
+.videos h1 span {
+  color: #c271ff;
+  font-family: "Source Sans Pro";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.videos-vds {
+  height: 28.125rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 2rem;
+}
+
+.videos-cards {
+  width: 15.9375rem;
+  height: 21.5rem;
+  border-radius: 0.3125rem;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+  margin-top: -3rem;
+}
+
+.videos-cards-1 {
+  background-image: url(./images/vd1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.videos-cards-2 {
+  background-image: url(./images/vd2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.videos-cards-3 {
+  background-image: url(./images/vd3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.videos-cards-4 {
+  background-image: url(./images/vd4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.play {
+  width: 4rem;
+  height: 4rem;
+  position: relative;
+  top: 2.8rem;
+  left: 6rem;
+  padding-bottom: 5rem;
+}
+
+.videos-cards h2 {
+  color: #071629;
+  font-family: Source Sans Pro;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 1rem;
+}
+
+.videos-first-text {
+  color: rgba(7, 22, 41, 0.5);
+  font-family: Source Sans Pro;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding-left: 1rem;
+}
+
+.videos-react {
+  padding-left: 1rem;
+}
+
+.videos-avatar {
+  border-radius: 50%;
+  width: 1.5rem;
+  align-items: center;
+  position: relative;
+  top: 0.6rem;
+}
+
+.videos-cards h3 {
+  color: #c271ff;
+  font-family: Source Sans Pro;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.6875rem;
+  display: inline;
+  padding-left: 0.6rem;
+}
+
+.videos-rating {
+  margin-top: -0.3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+}
+
+.videos-rating-stars {
+  height: 0.9375rem;
+}
+
+.videos-second-text {
+  color: #c271ff;
+  text-align: right;
+  font-family: Source Sans Pro;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.6875rem;
+}
+
+.membership {
+  background-color: #071629;
+  margin-top: -1.23rem;
+  width: 102%;
+  position: relative;
+  top: 4.9rem;
+  left: -1rem;
+  height: 32rem;
+}
+
+.membership h1 span {
+  color: #c271ff;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.membership h1 {
+  color: #fff;
+  font-family: Source Sans Pro;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  padding-top: 4.38rem;
+}
+
+.membership-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.81rem;
+  padding-top: 3.62rem;
+}
+
+.membership-div-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 16.0625rem;
+  height: 9.5625rem;
+}
+
+.membership-div-row img {
+  width: 2.72913rem;
+  height: 2.20956rem;
+}
+
+.membership-div-row h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.625rem;
+}
+
+.membership-div-row p {
+  color: #fff;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  width: 13.25rem;
+}
+
+.membership-btn {
+  width: 10.125rem;
+  height: 2.75rem;
+  border-radius: 1.375rem;
+  background: #c271ff;
+  color: #fff;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+  left: 48rem;
+  top: 5.5rem;
+  bottom: 4.06rem;
+}
+
+.FAQ {
+  margin-top: -1.25rem;
+  background-color: #fff;
+  width: 102%;
+  position: relative;
+  top: 6rem;
+  left: -1rem;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FAQ-div {
+  width: 57.5rem;
+  height: 44.1875rem;
+  background-color: #fff;
+}
+
+.FAQ-div h1 {
+  color: #071629;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.FAQ-parts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.875rem;
+}
+
+.FAQ-part h2 {
+  color: #071629;
+  font-family: Source Sans Pro;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.FAQ-part p {
+  color: rgba(7, 22, 41, 0.5);
+  font-family: Source Sans Pro;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  width: 21.875rem;
+}
+
+.footer {
+  background-color: #071629;
+  width: 102%;
+  position: relative;
+  top: 6rem;
+  left: -1rem;
+  height: 15.5625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: row;
+  gap: 55rem;
+}
+
+.logo-footer {
+  width: 10rem;
+  height: 2rem;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.footer p {
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}
